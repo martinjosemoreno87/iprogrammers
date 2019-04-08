@@ -68,7 +68,7 @@ public class AppConfig {
 
 	@Bean("myKey")
 	public String getMyKey() {
-		return "1912|EySWyb3Gsm^Z03SXtpzT49gCRDV4DQzx";
+		return "{AGREGAR KEY}";
 	}
 	
 	@Bean("restEntity")

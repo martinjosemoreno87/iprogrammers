@@ -39,7 +39,18 @@ public class Cotizacion {
 
 	public Cotizacion() {
 	}
-
+	
+	public Cotizacion(Long idCotizacion, Date updated, String source, String target, double value, int quantity,
+			double amount) {
+		this.idCotizacion = idCotizacion;
+		this.updated = updated;
+		this.source = source;
+		this.target = target;
+		this.value = value;
+		this.quantity = quantity;
+		this.amount = amount;
+	}
+	
 	public Long getIdCotizacion() {
 		return idCotizacion;
 	}

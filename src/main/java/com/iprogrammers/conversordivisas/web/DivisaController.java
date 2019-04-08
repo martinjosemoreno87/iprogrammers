@@ -14,6 +14,6 @@ public interface DivisaController {
 	
 	public RespuestaBase<HttpStatus, Cotizacion> cotizar(Cotizacion cotizacion);
 	
-	public RespuestaBase<HttpStatus, List<Cotizacion> > getCotizaciones(Cotizacion cotizacion);
+	public RespuestaBase<HttpStatus, List<Cotizacion> > getCotizaciones();
 	
 }

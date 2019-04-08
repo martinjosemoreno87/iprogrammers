@@ -68,7 +68,7 @@ public class DivisaControllerImpl implements DivisaController {
 
 	@Override
 	@GetMapping("/cotizaciones")
-	public RespuestaBase<HttpStatus, List<Cotizacion>> getCotizaciones(Cotizacion cotizacion) {
+	public RespuestaBase<HttpStatus, List<Cotizacion>> getCotizaciones() {
 		
 		return new RespuestaBase<>(HttpStatus.OK, divisaService.getCotizaciones());
 	}
